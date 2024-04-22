@@ -1,5 +1,8 @@
 #Přetipování umožňuje konverzi tohoto řetězce na požadovaný datový typ.
 #Pomocí přetipování můžete konvertovat vstup do různých datových typů, například na celé číslo (Integer).
+# ---------------------------------------------------
+# str/int/float/bool(proměna kterou cheme přetipovat)
+# ---------------------------------------------------
 
 x = "1"
 y =  2

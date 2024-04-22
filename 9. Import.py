@@ -1,4 +1,8 @@
 # Import slouží k imporotvání ruzých modulu, díky kterým získáme spoustu novích funkcí
+# -------------------
+# import nazve_modulu
+# -------------------
+
 # Import modulu random pro použití funkcí náhodné generace
 import random
 vyherni_cislo = random.randint(1,10)
