@@ -2,6 +2,7 @@
 
 
 #Podmínky v Pythonu umožňují provádět různé akce na základě splnění určitých kritérií. Klíčová slova if, elif a else se používají k definici podmínek.
+
 # ----------------------------------------------------------------------
 # if podmínka1:
     # provedený kód, pokud je podmínka1 splněna
@@ -19,7 +20,8 @@
     # podminka1 and podminka2 --> and --> jestliže podminka1 a podminka2 bude True provede se blok kodu, zdali obě nebo jedna bude False blok kodu neproběhne
     # podminka1 or podminka2 --> or --> musí být alespoň jedna podmínka True aby proběhl blok kodu
     # hodnota in seznam --> in --> zkontrluje zdali se hodnota nacházi v senzamu
-    # isinstance (promenna, datový typ) --> kontorulje datoví typ 
+    # isinstance (proměnná, datový typ) --> kontorulje datoví typ 
+
 # Příklady
 
 # Vyhodnocení znaku čísla
@@ -53,3 +55,4 @@ if user_input:
     print("Vítej,", user_input)
 else:
     print("Nezadal jsi žádné jméno")
+

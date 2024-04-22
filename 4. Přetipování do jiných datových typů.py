@@ -1,12 +1,13 @@
-#Přetipování umožňuje konverzi tohoto řetězce na požadovaný datový typ.
-#Pomocí přetipování můžete konvertovat vstup do různých datových typů, například na celé číslo (Integer).
+# Přetipování umožňuje konverzi promenné na jiný požadovaný datový typ.
+# Pomocí přetipování můžete konvertovat vstup do různých datových typů, například na celé číslo (Integer).
+
 # ---------------------------------------------------
-# str/int/float/bool(proměna kterou cheme přetipovat)
+# str/int/float/bool(zde dáme proměnná kterou cheme přetipovat)
 # ---------------------------------------------------
 
 x = "1"
 y =  2
-x = int(x) # x  se zmení z datového typu string na intiger
+x = int(x) # x  se změní z datového typu string na integer
 z = x + y
 print("Sčítání:", z)  # Výstup: 3
 

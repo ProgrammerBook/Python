@@ -1,14 +1,19 @@
 # Výpis do příkazového řádku
+# díky funkci print() mužeme vypisovta hodnoty v kulatých závorkách do příkazového řádku)
+
 # ---------------------------------------------------------
 # print(Hotnota kterou checeme vypsat do příkazového řádku)
 # ---------------------------------------------------------
 
-print("Hello world") # Výstup Hello world!
+print("Hello world!") # Výstup Hello world!
 
 # Vytvoření proměnných s různými datovými typy
+
 # -----------------------------------
 # název_proměnné = hodnota v promenné
 # -----------------------------------
+
+# Příklady proměnných
 vek = 25         # typ int
 jmeno = "John"   # typ str
 je_muz = True    # typ bool
@@ -31,6 +36,6 @@ print("Výška:", vyska)
 # F-string
 print(f"Jméno: {jmeno}")
 #     ↑        ↑    ↑ 
-#     |       Do šišatých závorek napíšeme proměnnou která poté bude pouze v printu přetipovaná na string
+#     |       Do složených závorek napíšeme proměnnou která poté bude pouze v printu přetipovaná na string
 #     |
 # píšeme f před uvozovky

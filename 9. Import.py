@@ -1,4 +1,5 @@
 # Import slouží k imporotvání ruzých modulu, díky kterým získáme spoustu novích funkcí
+
 # -------------------
 # import nazve_modulu
 # -------------------
@@ -9,3 +10,5 @@ vyherni_cislo = random.randint(1,10)
 
 # Použití funkce randint pro generování celých čísel
 print("Vyherní čislo je:", vyherni_cislo)  # Výstup: čílso od 1 do 10
+
+# Je sposuta modulů se kterýma lze v pyhotnu pracovat , jako např. pygame, time, colorma atd.

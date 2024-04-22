@@ -1,3 +1,6 @@
+# S porměnnýma mužeme ruzně pracovta, ale dej si pozor na datové typy, nemužeš třeba pracovat se Stringem a Integrem společně.
+# Ale Float a Integer mužete spojovta dohomrady, jelikož to josu datové typ s číslicí, ale výsledek bude pokaždé Float
+
 # Vytvoření proměnných
 x = 5
 y = 3
@@ -24,16 +27,13 @@ print("Násobeni string:", slovo ) # Výstup: AAAAA
 z = x / y
 print("Dělení:", z)  # Výstup: 1.6666666666666667
 
-# Celočíselné dělení (floor division)
-z = x // y
-print("Celočíselné dělení:", z)  # Výstup: 1
-
 # Umocnění
 z = x ** y
 print("Umocnění:", z)  # Výstup: 125
 
 # Možnosti s proměnnými
 # Proměnné mohou  překopírovány nebo mohou být použity k ukládání různých hodnot.
+
 # Změna hodnoty proměnné
 x = 5
 x = 10
