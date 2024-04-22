@@ -1,22 +1,32 @@
 # Vytvoření seznamu
 # pozice   0  1  2  3  4
-my_list = [1, 2, 3, 4, 5]
+cisla = [1, 2, 5, 3, 4]
 
 # Výpis celého seznamu
-print("Obsah seznamu:", my_list)
+print("Obsah seznamu:", cisla) # Výstup: [1, 2, 5, 3, 4]
 
 # Vypisování zvlášť hodnot z seznamu
-print("První prvek seznamu:", my_list[0])  # Očekávaný výstup: 1
-print("Poslední prvek seznamu:", my_list[-1])  # Očekávaný výstup: 5
+print("První prvek seznamu:", cisla[0])  # Výstup: 1
+print("Poslední prvek seznamu:", cisla[4])  # Výstup: 5
 
 # Přidání prvku do seznamu
-my_list.append(6)
-print("Seznam po přidání prvku:", my_list)
+cisla.append(6)
+print("Seznam po přidání prvku:", cisla) # Výstup: [1, 2, 5, 3, 4, 6]
 
 # Odebrání prvku ze seznamu podle hodnoty
-my_list.remove(3)
-print("Seznam po odebrání prvku:", my_list)
+zvirata = ["Pes", "Kočka","Panda"]
+zvirata.remove("Pes")
+print("Seznam po odebrání prvku:", zvirata) # Výstup: ["Kočka","Panda"]
 
-# Indexování seznamu
-print("První prvek seznamu:", my_list[0])  # Očekávaný výstup: [1, 2, 4]
-print("Posledního prvku seznamu:", my_list[4])  # Očekávaný výstup: [4, 6]
+# Vytvoření funkce pro nalezení maximální hodnoty v seznamu
+print("Maximální hodnota seznamu:", max(cisla)) # Výstup: 6
+
+# Vytvoření funkce pro nalezení minimální hodnoty v seznamu
+print("Minimální hodnota seznamu:", min(cisla)) # Výstup: 1
+
+# Vytvoření funkce pro řazení seznamu
+cisla.sort(cisla)
+print("Seznam seřazený:", cisla) # Výstup: [1, 2, 3, 4, 5, 6]
+
+# Vytvoření funkce pro zjištění délky seznamu
+print("Délka seznamu:", len(cisla)) # Výstup: 6

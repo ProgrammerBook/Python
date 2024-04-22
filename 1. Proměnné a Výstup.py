@@ -1,16 +1,21 @@
 # Výpis do příkazového řádku
+# ---------------------------------------------------------
 # print(Hotnota kterou checeme vypsat do příkazového řádku)
+# ---------------------------------------------------------
+
 print("Hello world") # Výstup Hello world!
 
 # Vytvoření proměnných s různými datovými typy
+# -----------------------------------
 # název_proměnné = hodnota v promenné
-age = 25        # typ int
-name = "John"   # typ str
-is_male = True  # typ bool
-height = 175.5  # typ float
+# -----------------------------------
+vek = 25         # typ int
+jmeno = "John"   # typ str
+je_muz = True    # typ bool
+vyska = 175.5    # typ float
 
 # Datové Typy
-
+# -----------
 # Integers (celá čísla): Reprezentují celé číselné hodnoty, například věk.
 # Strings (řetězce): Reprezentují textové hodnoty, například jméno.
 # Booleans (logické hodnoty): Reprezentují logické hodnoty True (pravda) nebo False (nepravda).
@@ -18,10 +23,14 @@ height = 175.5  # typ float
 
 
 # Ukázka výpisu hodnot proměnných
-print("Věk:", age)
-print("Jméno:", name)
-print("Je muž:", is_male)
-print("Výška:", height)
+print("Věk:", vek)
+print("Jméno:", jmeno)
+print("Je muž:", je_muz)
+print("Výška:", vyska)
 
 # F-string
-print(f"Jméno: {name}")
+print(f"Jméno: {jmeno}")
+#     ↑        ↑    ↑ 
+#     |       Do šišatých závorek napíšeme proměnnou která poté bude pouze v printu přetipovaná na string
+#     |
+# píšeme f před uvozovky

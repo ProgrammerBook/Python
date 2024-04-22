@@ -1,26 +1,22 @@
 # Funkce jsou bloky kódu, které provádějí určité operace a mohou být znovupoužity.
+# def add(Zde dáme parametry funkce):
+#    Zde zadame kod který cheme mít ve funkci
+#    return  To co dáme do return tak bude mít hdonotu ve funkcy
+
+# Vyvolání funkce
+# add(zde dáme honoty pro paramtery)
 
 # Vytvoření funkce
 def add(x, y):
-    
-    # Tato funkce sečte dvě čísla.
-    
-    # Args:
-      #  x (int): První číslo.
-      #  y (int): Druhé číslo.
-        
-    # Returns:
-        #int: Součet dvou čísel.
-    
     z = x + y
     return z   
 
-    # díky funkci return se vyhodnotí funkce add
-# Vyvolání funkce
+
 number1 = 3
 number2 = 4
-result = add(3, 4)
-# add() --> takhle vyvoláváme funkci a do závorke napíšeme hodnoty ketré cheme aby měli hodnotu ve funkci 
+
+# Vyvolání funkce
+result = add(3,4)
 
 # Výpis výsledku
 print("Výsledek sčítání je:", result)  # Očekávaný výstup: 7

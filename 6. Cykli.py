@@ -1,7 +1,8 @@
 # While cyklus provádí blok kódu opakovaně, dokud je podmínka pravdivá.
+# -------------------------------------------------------------
 # while pdomínka 
     # while bude porbíhat do té doby dokud nebude podínka False 
-
+# --------------------------------------------------------------
 # Inicializace proměnné i
 i = 0
 
@@ -12,9 +13,11 @@ while i < 5:
 
 
 # For cyklus provádí blok kódu Po nějakou dobu
-#for i in range()
+# -----------------------------------------------------------------------
+# for i in range()
     # i --> v i se ukládá po kolíkáte už porbíhá kod
     # range --> díky funkci range zadáme kolikrát bude cyklus for porbíhat
+# ------------------------------------------------------------------------
 
 # For cyklus pro tisk čísel od 1 do 5
 print("Čísla od 0 do 5:")
