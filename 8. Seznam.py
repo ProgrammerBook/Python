@@ -18,15 +18,15 @@ zvirata = ["Pes", "Kočka","Panda"]
 zvirata.remove("Pes")
 print("Seznam po odebrání prvku:", zvirata) # Výstup: ["Kočka","Panda"]
 
-# Vytvoření funkce pro nalezení maximální hodnoty v seznamu
+# Nalezení maximální hodnoty v seznamu
 print("Maximální hodnota seznamu:", max(cisla)) # Výstup: 6
 
-# Vytvoření funkce pro nalezení minimální hodnoty v seznamu
+# Nalezení minimální hodnoty v seznamu
 print("Minimální hodnota seznamu:", min(cisla)) # Výstup: 1
 
-# Vytvoření funkce pro řazení seznamu
+# Řazení seznamu
 cisla.sort(cisla)
 print("Seznam seřazený:", cisla) # Výstup: [1, 2, 3, 4, 5, 6]
 
-# Vytvoření funkce pro zjištění délky seznamu
+# Zjištění délky seznamu
 print("Délka seznamu:", len(cisla)) # Výstup: 6

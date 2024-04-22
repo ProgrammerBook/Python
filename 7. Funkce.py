@@ -10,8 +10,8 @@
 
 # Vytvoření funkce
 def add(x, y):
-    z = x + y
-    return z   
+  z = x + y
+  return z   
 
 
 number1 = 3
