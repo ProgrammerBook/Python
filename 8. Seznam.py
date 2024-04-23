@@ -33,8 +33,9 @@ print("Maximální hodnota seznamu:", max(cisla)) # Výstup: 6
 print("Minimální hodnota seznamu:", min(cisla)) # Výstup: 1
 
 # Seřazení seznamu
-cisla.sort(cisla)
+cisla.sort(reverse = False)
 print("Seznam seřazený:", cisla) # Výstup: [1, 2, 3, 4, 5, 6]
+# reverse --> díky funcky reverse se kod seřadí naopak
 
 # Zjištění délky seznamu
 print("Délka seznamu:", len(cisla)) # Výstup: 6
