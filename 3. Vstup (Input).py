@@ -9,3 +9,5 @@ vstup = input("Zadej Příkaz: ") # Proměnná "vstup" dostane hodnotu kterou vy
 
 # Příklad výstupu s input
 print("Zadali jste říkaz:", vstup)
+
+# Kod se zastaví doté doby doktu nezmáčknem Enter

@@ -3,11 +3,11 @@
 # Pro vyvoření seznamu musíme za znemnékem rovnosti dát hranaté závroky, a každou hodnotu odělovat čárkou
 
 # -------------------------------------------
-# nazev_seznamu = ["zde","budou","hodnoty", "v", "senzamu"]
+# nazev_seznamu = ["zde", "budou", "hodnoty", "v", "senzamu"]
 # -------------------------------------------
 
 
-# pozice 0  1  2  3  4
+# Pozice 0  1  2  3  4
 cisla = [1, 2, 5, 3, 4]
 
 # Výpis celého seznamu
@@ -35,7 +35,7 @@ print("Minimální hodnota seznamu:", min(cisla)) # Výstup: 1
 # Seřazení seznamu
 cisla.sort(reverse = False)
 print("Seznam seřazený:", cisla) # Výstup: [1, 2, 3, 4, 5, 6]
-# reverse --> díky funcky reverse se kod seřadí naopak
+# reverse --> díky funcky reverse se kod seřadí naopak, jestliže tak chceme napíšme míto False na True
 
 # Zjištění délky seznamu
 print("Délka seznamu:", len(cisla)) # Výstup: 6
