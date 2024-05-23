@@ -17,5 +17,5 @@ print("Sčítání:", z)  # Výstup: 3
 # float() - přetipování na float
 
 # Získání vstupu od uživatele jako desetinné číslo
-float_input = float(input("Zadej desetinné číslo: "))
-print("Zadali jste číslo:", float_input)
+vstup = float(input("Zadej desetinné číslo: "))
+print("Zadali jste číslo:", vstup)
