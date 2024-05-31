@@ -25,7 +25,7 @@ except TypeError:
 try:
     z = int(x) + y  #Výstup: 3
     print("Zde není žádná chyba, výsledke je", z)
-    # V kodu nenastala chby kod v pořádku porběne
+    # V kodu nenastala chyba kod v pořádku porběne
 except TypeError:
     print("V kodu nastala chyba")
     # Tento blok kodu neprobehe, jelikož nenastala chyba
