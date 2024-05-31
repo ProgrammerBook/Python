@@ -1,4 +1,4 @@
-# Tuple jsou stejný jako slvník, s ztím že jsou nezměnitelné
+# Tuple jsou stejný jako seznam, s tím že jsou nezměnitelné
 
 # ----------------------------------------
 # nazev_tuple = ("hotony", "v", "tuple")
