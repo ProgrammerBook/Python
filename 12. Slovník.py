@@ -19,8 +19,8 @@ klient = {
 # Výpis slovníku
 print("Jméno klienta: ", klient["jméno"]) # Výpis: ... Pavel
 
-# Smazání v slovníku
-del klient["přijmení"] # Smaže se ze slovníku
+# Smazání v slovníku 
+klient.pop("přijmení") # Smaže se ze slovníku
 
 # Přidání do slovníky
 # nazev_slovniku[nazev_klice] = hodnta_klice

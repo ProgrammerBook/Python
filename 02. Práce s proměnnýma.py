@@ -1,5 +1,8 @@
-# S porměnnýma mužeme ruzně pracovta, ale dej si pozor na datové typy, nemužeš třeba pracovat se Stringem a Integrem společně.
-# Ale Float a Integer mužete spojovta dohomrady, jelikož to josu datové typ s číslicí, ale výsledek bude pokaždé Float
+# S porměnnýma mužeme ruzně pracovta, ale dej si pozor na datové typy, 
+# nemužeš třeba pracovat se Stringem a Integrem společně. 
+
+# Ale Float a Integer mužete spojovta dohomrady, jelikož to josu datové typ s číslicí, 
+# ale výsledek bude pokaždé Float
 
 # Vytvoření proměnných
 x = 5

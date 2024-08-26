@@ -11,7 +11,7 @@
 # add(zde dáme hodnoty pro paramtery) 
 
 # Vytvoření funkce
-def add(x, y):
+def soucet(x, y):
   z = x + y
   return z   
 
@@ -19,14 +19,14 @@ cislo1 = 3
 cislo2 = 4
 
 # Vyvolání funkce
-result = add(cislo1,cislo2)
+vysledek = soucet(cislo1,cislo2)
 # cislo1 a cislo2 ted budoud ve funkci zmeneni na x a y
 # Je to pododbné jako překopírovvání porměnné
 # x = cilo1 a y = cislo2
 # V jakém pořadí porměnné napíšeme, tak takový parametr dostane hodnotu
 
 # Výpis výsledku
-print("Výsledek sčítání je:", result)  # Očekávaný výstup: 7
+print("Výsledek sčítání je:", vysledek)  # Očekávaný výstup: 7
 
 
 

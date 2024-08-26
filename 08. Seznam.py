@@ -35,7 +35,7 @@ print("Minimální hodnota seznamu:", min(cisla)) # Výstup: 1
 # Seřazení seznamu
 cisla.sort(reverse = False)
 print("Seznam seřazený:", cisla) # Výstup: [1, 2, 3, 4, 5, 6]
-# reverse --> díky funcky reverse se kod seřadí naopak, jestliže tak chceme napíšme míto False na True
+# reverse --> díky funkci reverse se kod seřadí naopak, jestliže tak chceme napíšme míto False na True
 
 # Zjištění délky seznamu
 print("Délka seznamu:", len(cisla)) # Výstup: 6
