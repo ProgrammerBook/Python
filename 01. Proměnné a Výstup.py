@@ -13,6 +13,8 @@ print("Hello world!") # Výstup Hello world!
 # název_proměnné = hodnota v promenné
 # -----------------------------------
 
+print(" ")
+
 # Příklady proměnných
 vek = 25         # typ int
 jmeno = "Václav"   # typ str
@@ -28,13 +30,13 @@ vyska = 175.5    # typ float
 
 
 # Ukázka výpisu hodnot proměnných
-print("Věk:", vek)
-print("Jméno:", jmeno)
-print("Je muž:", je_muz)
-print("Výška:", vyska)
+print("Osobní údaje:")
+print(" Věk:", vek)
+print(" Jméno:", jmeno)
+print(" Je muž:", je_muz)
 
 # F-string
-print(f"Jméno: {jmeno}")
+print(f" Výška: {vyska}")
 #     ↑        ↑     ↑ 
 #     |       Do složených závorek napíšeme proměnnou která poté bude pouze v printu přetipovaná na string
 #     |

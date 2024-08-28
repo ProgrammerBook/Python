@@ -1,36 +1,63 @@
-# Třídy využíváme k tomu, abycho vytovřili takovou svojí knihovnu
-# V třídě vytváříme pouze funkce
-#---------------------------------------------
-#class nazve_tridy:
-    # zde vytvoříme funkce které chceme
+# Třídy využíváme k tomu, abychom vytvořili vlastní knihovnu funkcí a objektů
 
-# Vyvolání třídy
-# nazev_tridy.nazev_funkce(parametry funkce)
+# Třída se definuje pomocí klíčového slova `class`:
 #---------------------------------------------
-# Ukážem si příklad , ve kterém vytvoříme karkulačku pro sčítání a odčítání
+# class NazevTridy:
+#     # Zde vytvoříme metody (funkce) a atributy (proměnné)
+#---------------------------------------------
 
-# Vytvořeni třídy
-class karkulacka:
-    # Vytovření funkce pro sčítání
-    def scitani(cislo1,cislo2):
+# Vytvoření instance třídy a volání metod:
+# instance = NazevTridy()
+# instance.nazevMetody(parametry)
+
+# ---------------------------------------------
+# Ukážeme si příklad, ve kterém vytvoříme kalkulačku pro sčítání a odčítání:
+
+# Vytvoření třídy
+class Kalkulacka:
+    # Vytvoření metody pro sčítání
+    def scitani(self, cislo1, cislo2):
         vysledek = cislo1 + cislo2
         return vysledek
     
-    # Vytvoření funkce pro odečítaní
-    def odecitani(cislo1,cislo2):
+    # Vytvoření metody pro odečítání
+    def odecitani(self, cislo1, cislo2):
         vysledek = cislo1 - cislo2
         return vysledek
-    
-x = int(input("Zadejte první číslo: "))
-y = int(input("Zadejte druhé číslo: "))
 
-# Vyvolání funkce pro sčítání
-vysledek1 = karkulacka.scitani(x,y)
+# Vytvoření instance třídy
+kalkulacka = Kalkulacka()
 
-# Vyvolání funkce pro odečítání
-vysledek2 = karkulacka.odecitani(x,y)
+x = 5
+y = 6
 
-print("Sečtení čísel: ", vysledek1)
-print("odečtení čísel: ", vysledek2)
-    
-    
+# Vyvolání metody pro sčítání
+vysledek1 = kalkulacka.scitani(x, y)
+
+# Vyvolání metody pro odečítání
+vysledek2 = kalkulacka.odecitani(x, y)
+print("Kalkulačka")
+print(" Sečtení čísel:", vysledek1)
+print(" Odečtení čísel:", vysledek2)
+
+# Dědičnost
+# Mezi třídami můžeme dědit, například parametry, či metody
+
+class DomaciMazlicek:
+    # Pomocí metody __init__ můžeme inicializovat atributy
+    def __init__(self, jmeno):
+        self.jmeno = jmeno
+
+    def pohyb(self):
+        print(f" {self.jmeno} se pohybuje.")
+
+# Třída, která dědí z DomaciMazlicek
+class Pes(DomaciMazlicek):
+    def zvuk(self):
+        print(f" {self.jmeno} štěká.")
+
+# Použití dědičnosti
+print("Domácí zvíře")
+pes = Pes("Rex")
+pes.pohyb()  # Výstup: Rex se pohybuje.
+pes.zvuk()   # Výstup: Rex štěká.

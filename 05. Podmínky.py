@@ -26,33 +26,42 @@
 
 # Vyhodnocení znaku čísla
 cislo = 15
+print("Velikost čísla")
+print(" Váše číslo =", cislo)
 
 if cislo == 0:
-    print("Číslo je 0")
+    print(" Číslo je 0")
 elif cislo < 0:
-    print("Číslo je záporné")
+    print(" Číslo je větší než 0")
 else:
-    print("Číslo je nula")
+    print(" Číslo je číslo je menší než 0")
 
 
 
-# Rozlišení mezi různými typy čísel
+
+
+
+
+# Kontrola datového typu
+print("Kontrola datového typu")
 x = 10
+print(" Hodnota x =", x)
 
 if isinstance(x, int):
-    print("x je celé číslo")
+    print(" Hodnota x je celé číslo")
 elif isinstance(x, float):
-    print("x je desetinné číslo")
+    print(" Hodnota x je desetinné číslo")
 else:
-    print("x není číslo")
+    print(" Hodnota x není číslo")
 
 
 
 # Kontrola vstupu od uživatele
-user_input = input("Zadej své jméno: ")
+print("Kontrola zadané honodty")
+prezdivka = input(" Zadej své jméno: ")
 
-if user_input:
-    print("Vítej,", user_input)
+if prezdivka:
+    print(" Vítej,", prezdivka)
 else:
-    print("Nezadal jsi žádné jméno")
+    print(" Nezadal jsi žádnou prezdivku")
 

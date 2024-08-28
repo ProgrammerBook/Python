@@ -1,7 +1,7 @@
 # Slovník je datová struktura , ve které se nachází klíče
 # Do každého klíče mužeme dávat jakoukoliv hodntou s ruznými datovími typy
 # Slovník vyrtváříme pomocí {}, klíče jsou vetšinou vytvořeny v datovém typu string/intiger
-# PRo založení dalšího kliče používáme čárku
+# Pro založení dalšího kliče používáme čárku
 
 # -------------------------------------------------
 # nazev_slovniku = {

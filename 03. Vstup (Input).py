@@ -4,10 +4,11 @@
 # input(zde mužeme např. dát text před vypsání vstupu)
 # --------------------------------
 
-# Získání vstupu od uživatele 
-vstup = input("Zadej Příkaz: ") # Proměnná "vstup" dostane hodnotu kterou vypíšeme v příkazovém řádku
+# Získání vstupu od uživatele,
+prezdivka = input("Vaše přezdívka: ") # Proměnná "prezdivka" dostane hodnotu kterou vypíšeme v příkazovém řádku
 
-# Příklad výstupu s input
-print("Zadali jste říkaz:", vstup)
+# Vástup našeho inputu
+print("Ahoj", prezdivka)
 
-# Kod se zastaví doté doby doktu nezmáčknem Enter
+# Kod se zastaví doté doby doktu nezmáčknem Enter  
+

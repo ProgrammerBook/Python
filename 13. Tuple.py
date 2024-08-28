@@ -1,4 +1,5 @@
 # Tuple jsou stejný jako seznam, s tím že jsou nezměnitelné
+# NEdá se v nich ani přidat,odebrat ani změnit jakákoliv hodnota
 
 # ----------------------------------------
 # nazev_tuple = ("hotony", "v", "tuple")
