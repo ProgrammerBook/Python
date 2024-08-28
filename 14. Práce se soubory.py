@@ -21,8 +21,8 @@ with open("novy_soubor.txt", "w") as vy_soubor:
 
 
 # Otevřeme soubor pro čtení
-with open("novy_soubor.txt", "r") as file:
+with open("novy_soubor.txt", "r") as pre_soubor:
     # Přečteme celý obsah souboru
-    obsah = file.read()
+    obsah = pre_soubor.read()
     print("Obsah souboru je:")
     print(obsah)
