@@ -1,7 +1,7 @@
 # Pomocí pythonu mužeme číst nebo vytvářet soubory
 
 # -----------------------------------------------
-   # with open("nazev_souboru","prace_se_souborem") as nazev_promenne
+   # with open("nazev_souboru.txt","prace_se_souborem") as nazev_promenne
 
     # Moznosti pracovat se souborem:
         # r = přečtení souboru
